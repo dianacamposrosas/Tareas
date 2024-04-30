@@ -16,7 +16,7 @@ public class Triangle extends Shape {
         System.out.println("Please enter the side 3 of the triangle (int)");
         int side3 = leer.nextInt();
         
-        System.out.println("The perimete is: "+ (side1+side2+side3));
+        System.out.println("The perimete is: "+ (side1+side2+side3)+"cm");
     }
     
     @Override
@@ -27,6 +27,6 @@ public class Triangle extends Shape {
         System.out.println("Please enter the height of the triangle (int)");
         height = leer.nextInt();
         
-        System.out.println("The perimeter is: "+ (base*height/2));
+        System.out.println("The area is: "+ (base*height/2)+"cm2");
     }
 }
