@@ -26,7 +26,6 @@ public class Main {
                 myTriangle.calcularPerimetro();
                 break;
             case 2:
-                mySquare.obtenerLado();
                 mySquare.calcularArea();
                 mySquare.calcularPerimetro();
                 break;
@@ -35,7 +34,6 @@ public class Main {
                 myRectangle.calcularPerimetro();
                 break;
             case 4:
-                myCircle.obtenerRadio();
                 myCircle.calcularArea();
                 myCircle.calcularPerimetro();
                 break;

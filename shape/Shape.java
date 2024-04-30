@@ -7,8 +7,8 @@ public abstract class Shape {
     
     protected abstract void calcularPerimetro();
     
-
     protected abstract void calcularArea();
+    
     
     
 }

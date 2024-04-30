@@ -1,22 +1,19 @@
 package shape;
 import java.util.Scanner;
 
-public class Square implements ShapeInterface {
+public class Square extends Shape {
     Scanner leer = new Scanner(System.in);
-    int side;
     
-    public void obtenerLado(){
-        System.out.println("Please enter the side of the square (int)");
-        side= leer.nextInt();
-    }
     @Override
     public void calcularPerimetro(){
+        System.out.println("Please enter the base of the square (int)");
+        base= leer.nextInt();
         
-        System.out.println("The perimeter is: "+ (side*4)+"cm");
+        System.out.println("The perimeter is: "+ (base*4));
     }
     
     @Override
     public void calcularArea(){
-        System.out.println("The area is: "+ Math.pow(side, 2)+"cm2");
+        System.out.println("The perimeter is: "+ (base*base));
     }
 }
